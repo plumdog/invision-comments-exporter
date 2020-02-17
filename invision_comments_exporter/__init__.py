@@ -39,7 +39,7 @@ def main():
                     'comment': i,
                     'user': comment['userName'],
                     'text': comment['comment'],
-                    'link': f'{url}/{screen["id"]}/comments/{comment["conversationID"]}',
+                    'link': f'{url}/{screen["id"]}/comments/{comment["conversationID"]}#/screens/{screen["id"]}/comments/{comment["conversationID"]}',
                 }
                 rows.append(row)
 
